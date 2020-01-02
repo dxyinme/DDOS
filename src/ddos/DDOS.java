@@ -50,7 +50,7 @@ public class DDOS {
     static Scanner cin = new Scanner(System.in);
     static DDOSargs UacLim = new DDOSargs();
     private static String target;
-    public static void main(String[] args) {
+    public static void work() {
         System.out.println("Input Threadnumber:");
         UacLim.threadLimit = cin.nextInt();
         System.out.println("Input timenumber(ms):");
